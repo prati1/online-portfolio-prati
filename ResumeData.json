@@ -1,0 +1,165 @@
+{
+    "main": {
+      "name": "Pratiksha Shrestha",
+      "occupation": "Software Developer",
+      "description": "I enjoy working on data focused large scale projects. Sometimes I like to get my hands dirty with machine learning and blockchain. I'm currently looking for summer internships.",
+      "image": "profilePic.jpg",
+      "bio": [
+        "I'm currently pursuing MS in Computer Science at Miami University of Ohio and plan to graduate on May 2024. I work as a Full-Stack Developer and Graduate Assistant at Myaamia Center.",
+        "I have four years of experience in software development, especially in developing B2B e-commerce web applications. My expertise lies in Node.js, Python, MySQL, and Amazon Web Services (AWS). I like to keep learning. I'm currently working on my frontend development skills alongside diving into blockchain."
+      ],
+      "contactmessage": "You can contact me at pratiksha.shrestha97@gmail.com.",
+      "email": "pratiksha.shrestha97@gmail.com",
+      "phone": "+1 (347) 686 1391",
+      "address": {
+        "street": "714 South Locust Street",
+        "city": "Oxford",
+        "state": "Ohio",
+        "zip": "45056"
+      },
+      "website": "http://pratikshashrestha.com.np",
+      "resumeDownload": "/documents/Pratiksha_Shrestha_Resume.pdf",
+      "social": [
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/pratibha.stha",
+          "className": "fa fa-facebook"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/pratiksha-shrestha-8a5277b9/",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/pratisresta/",
+          "className": "fa fa-instagram"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/prati1",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "research": {
+      "researchBio": [
+        "My primary research interest lies in application of blockchain technology to solve real-world problems. I'm working with Dr. Suman Bhunia at Miami University on blockchain based solution to design double blind peer review system that's fully anonymous and supports incentivization."
+      ],
+      "interests": ["Software Engineering", "Blockchain", "Privacy and Security", "Machine Learning"]
+    },
+    "resume": {
+      "skillmessage": "The tech stacks I'm comfortable with:",
+      "education": [
+        {
+          "school": "Miami University",
+          "degree": "MS in Computer Science",
+          "graduated": "May 2024 (Expected)",
+          "description": "Courses: Machine Learning, Advanced Databases, Cryptography"
+        },
+        {
+          "school": "Kathmandu University",
+          "degree": "BE in Computer Engineering",
+          "graduated": "December 2018",
+          "description": "Courses: Data Structures and Algorithms, Software Engineering, Artificial Intelligence"
+        }
+      ],
+      "work": [
+        {
+          "company": "Miami University - Myaamia Center",
+          "title": "Graduate Assistant (Full-Stack Developer)",
+          "years": "August 2022 - Present",
+          "description": [
+            "Design and develop web applications for Myaamia tribal language revitalization efforts.",
+            "Develop survey management and analytics tool for Neepwaayoni Acquisition and Assessment Team (NAAT) project.",
+            "Tech Stack: PHP (Laravel), MariaDB, AWS"
+          ]
+        },
+        {
+          "company": "Proshore Nepal",
+          "title": "Software Developer",
+          "years": "March 2019 - June 2022",
+          "description": [
+            "Developed secure, user-centric B2B web applications implementing AWS serverless and microservices architecture",
+            "Implemented efficient and consistent e-commerce data synchronization between 4 third-party vendor systems",
+            "Generated aggerated sales reports, client-vender sales analysis and user activity reports",
+            "Solved database performance issues, and optimized codebase increasing site performance by ~400% (5x faster response time)",
+            "Built automated deployment pipeline for streamlined release and rollback process decreasing deployment time",
+            "Tech Stack: JavaScript, Node.js, jQuery, MySQL, Python, AWS"
+          ]
+        },
+        {
+          "company": "GrowByData Services Pvt. Ltd.",
+          "title": "Associate Software Engineer",
+          "years": "August 2018 - February 2019",
+          "description": [
+            "Researched and implemented search engine optimization strategies, analytics, and updates of various e-commerce stores",
+            "Incorporated search engine spidering, crawling, and indexing and set up tests and campaigns for A/B testing and report generation",
+            "Tech Stack: BigCommerce, Shopify, ABTasty, Screaming Frog"
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "JavaScript",
+          "level": "80%"
+        },
+        {
+          "name": "Node.js",
+          "level": "70%"
+        },
+        {
+          "name": "MySQL",
+          "level": "70%"
+        },
+        {
+          "name": "Python",
+          "level": "60%"
+        },
+        {
+          "name": "AWS Services",
+          "level": "55%"
+        },
+        {
+          "name": "PHP",
+          "level": "50%"
+        },
+        {
+          "name": "Git",
+          "level": "60%"
+        },
+        {
+          "name": "React",
+          "level": "35%"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "Blinqed",
+          "category": "A B2B e-commerce web application",
+          "image": "blinqed.png",
+          "url": "https://my.orderxl.com/login"
+        },
+        {
+          "title": "Personal Website",
+          "category": "My own personal online portfolio",
+          "image": "personal_website.png",
+          "url": ""
+        },
+        {
+          "title": "Šaapohkaayoni",
+          "category": "Education portal for Myaamia tribe to access educational opportunities.",
+          "image": "eduportal.png",
+          "url": "https://mc.miamioh.edu/eduportal"
+        },
+        {
+          "title": "Eduawards",
+          "category":"Online platform to apply for scholorship opportunities",
+          "image": "eduawards.png",
+          "url": "https://mctest.miamioh.edu/edu-awards/"
+        }
+      ]
+    }
+  }
