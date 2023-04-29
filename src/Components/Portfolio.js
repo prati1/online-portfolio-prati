@@ -8,7 +8,7 @@ const Portfolio = (props) => {
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a href={projects.url} title={projects.title} target="_blank">
               <img alt={projects.title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -30,7 +30,7 @@ const Portfolio = (props) => {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Some of my application development projects:</h1>
+          <h1>Some of my development projects</h1>
 
           <div
             id="portfolio-wrapper"

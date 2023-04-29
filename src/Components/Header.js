@@ -40,6 +40,11 @@ const Header = (props) => {
             </a>
           </li>
           <li>
+            <a className="smoothscroll" href="#research">
+              Research
+            </a>
+          </li>
+          <li>
             <a className="smoothscroll" href="#resume">
               Resume
             </a>
@@ -55,7 +60,7 @@ const Header = (props) => {
             </a>
           </li>
           <li>
-            <a className="goToLink" href="https://pratiscrawls.wordpress.com/">
+            <a className="goToLink" target="_blank" href="https://pratiscrawls.wordpress.com/">
               Blog
             </a>
           </li>
@@ -73,7 +78,7 @@ const Header = (props) => {
           <hr />
           <ul className="social">{networks}</ul>
           {/* <hr /> */}
-          <a href={resumeDownload} className="button">
+          <a href={resumeDownload} className="button" target="_blank">
             <i className="fa fa-download"></i>Download Resume
           </a>
         </div>

@@ -4,28 +4,50 @@ const ResearchProfile = (props) => {
   return <p>{props.bio}</p>;
 };
 
+const ResearchInterests = (props) => {
+  return <li className="six columns">{props.interest}</li>;
+}
+
 const Research = (props) => {
-  let research;
-  let bio;
+  let bio, interests;
   if (props.data) {
-    research = props.data.research;
     bio = props.data.bio;
+    interests = props.data.interests;
+    console.log("intersts", interests);
   }
 
   return (
-    <section id="about">
+    <section id="research">
       <div className="row">
         {/* <div className="three columns"> */}
-        <div className="five columns">
-        </div>
+        {/* <div className="five columns">
+        </div> */}
         {/* <div className="nine columns main-col"> */}
-        <div className="seven columns main-col">
+        <div className="twelve columns main-col">
           <h2>Research</h2>
           <div>
-            {research &&
-              research.map((bioList) => {
+            {bio &&
+              bio.map((bioList) => {
                 return <ResearchProfile key={bioList} bio={bioList} />;
               })}
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        {/* <div className="three columns"> */}
+        {/* <div className="five columns">
+        </div> */}
+        {/* <div className="nine columns main-col"> */}
+        <div className="twelve columns main-col">
+          <h3>Research Interests</h3>
+          <div>
+            <ul>
+            {interests &&
+              interests.map((interest) => {
+                return <ResearchInterests key={interest} interest={interest} />;
+              })}
+            </ul>
           </div>
         </div>
       </div>

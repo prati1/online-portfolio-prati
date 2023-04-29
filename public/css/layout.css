@@ -287,6 +287,26 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
+/* Research Section
+/* ------------------------------------------------------------------ */
+
+#research {
+  background: #ebeeee;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+
+#research h2 {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+#research ul {
+  list-style: inside;
+}
+
+/* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
@@ -324,6 +344,10 @@ ul#nav li.current a {
 }
 #resume .main-col {
   padding-right: 10%;
+}
+
+#resume ul {
+  list-style: inside;
 }
 
 .education,

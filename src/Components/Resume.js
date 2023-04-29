@@ -34,6 +34,9 @@ const Resume = (props) => {
                 return <Description key={descriptionList} description={descriptionList} />;
               })}
           </ul>
+          <p className="stack">
+            <b>Tech Stack:</b> {work.stack}
+          </p>
         </div>
       );
     });

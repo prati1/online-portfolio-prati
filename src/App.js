@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
+import Research from "./Components/Research";
 import Resume from "./Components/Resume";
 import Portfolio from "./Components/Portfolio";
 // import Contact from "./Components/Contact";
@@ -39,6 +40,7 @@ const App = (props) => {
     <div className="App">
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
+      <Research data={resumeData.research} />
       <Resume data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />
       {/* <Contact data={resumeData.main} /> */}
