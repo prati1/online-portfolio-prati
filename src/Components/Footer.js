@@ -29,9 +29,9 @@ const Footer = (props) => {
         <div className="four columns">
           <ul className="social-links">{networks}</ul>
 
-          <ul className="copyright">
+          {/* <ul className="copyright">
             <li>&copy; Copyright 2023 Pratiksha Shrestha</li>
-          </ul>
+          </ul> */}
         </div>
         <div className="four columns contact-details">
           <h2>Contact Details</h2>
@@ -41,12 +41,14 @@ const Footer = (props) => {
             <span>
               {/* {street} */}
               {/* <br /> */}
-              {city} {state}, {zip}
+              {city}, {state} {zip}
             </span>
             <br />
             <span>{phone}</span>
             <br />
             <span><a href={mailto}>{email}</a></span>
+            <br />
+            <span><a href="mailto:shrestp9@miamioh.edu">shrestp9@miamioh.edu</a></span>
           </p>
         </div>
         <div id="go-top">
