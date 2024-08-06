@@ -20,19 +20,9 @@
       "resumeDownload": "/documents/Pratiksha_Shrestha_Portfolio.pdf",
       "social": [
         {
-          "name": "facebook",
-          "url": "https://www.facebook.com/pratibha.stha",
-          "className": "fa fa-facebook"
-        },
-        {
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/pratiksha-shrestha-8a5277b9/",
           "className": "fa fa-linkedin"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com/pratisresta/",
-          "className": "fa fa-instagram"
         },
         {
           "name": "github",
@@ -73,41 +63,43 @@
       "work": [
         {
           "company": "Myaamia Center, Miami University, Oxford, OH",
-          "title": "Full-Stack Developer (Graduate Assistant)",
+          "title": "Graduate Full-Stack Developer",
           "years": "August 2022 - Present",
           "description": [
-            "Designed and built intuitive web admin panel for tribal language revitalization, enhancing engagement and accessibility.",
-            "Led database architecture design and development for a dynamic survey management and data analysis platform. Supported 10+ surveys, implementing advanced filtering, sorting, and data mapping across interconnected survey datasets.",
-            "Developed a tool for efficient multipart uploads and streamed downloads for large files on AWS S3, effectively preventing web wait timeout issues.",
-            "Migrated from traditional server to AWS cloud services with zero server downtime and data loss"
+            "Designed and built intuitive web admin panel for language revitalization, enhancing engagement and accessibility.",
+            "Led database architecture design and development for a dynamic survey management and data analysis platform. Supported 10+ survey types, implementing advanced filtering, sorting, and data mapping across interconnected survey databases.",
+            "Implemented Progressive Web Application (PWA) features to enhance performance and user experience.",
+            "Developed a tool for efficient uploads and streamed downloads for large files on AWS S3, preventing web wait timeout issues.",
+            "Migrated legacy monolithic applications to microservices model hosted in AWS EC2 using AWS API Gateway.",
+            "Integrated OAuth 2.0 authorization to secure API endpoints and enhance user authentication process."
           ],
-          "stack": "PHP (Laravel), jQuery, JavaScript, Python, AWS, MariaDB, Docker, Rest API, Puppet"
+          "stack": "Laravel, Node.js, React.js, jQuery, JavaScript, AWS, MariaDB, Docker, Rest API, Puppet, Nginx, DLV2"
         },
         {
           "company": "Proshore Netherlands (via Proshore Nepal)",
           "title": "Software Developer",
           "years": "March 2019 - June 2022",
           "description": [
-            "Led development of B2B web applications in cross-functional team of 7-10 members following Agile SCRUM approach",
-            "Achieved 400% performance boost with targeted database optimization & codebase enhancement (5x faster response time)",
-            "Implemented factory pattern with multi-threading for efficient large database parsing in Python batch jobs",
-            "Optimized SQL queries, re-indexed tables, implemented client-server database model with database partitioning and sharding along with Redis cache for frequently accessed data to reduce server load and improve performance",
-            "Implemented e-commerce data synchronization across 4 third-party vendor systems for improved data accuracy & efficiency",
-            "Migrated legacy monolithic application to microservices model hosted in AWS EC2 using AWS Gateway API",
-            "Engineered continuous deployment pipeline reducing deployment time by 70% with improved release and rollback process"
-          ],
-          "stack": "Node.js, Python, JavaScript, MySQL, DocumentDB, AWS, Docker, Kubernetes, Redis, jQuery, Vue.js, Knex.js, Express.js, Mollie API, REST API, Filezilla, FTP, SMTP, cXML, Jira, Postman, Selenium, Chai"
+            "Led development of B2B web applications in cross-functional Agile team of 7-10 members.",
+            "Achieved 400% performance boost with targeted database optimization, and codebase enhancement (5x faster response time).",
+            "Parallelized large data transformation and integration in Python with factory pattern and multi-threading capabilities.",
+            "Optimized SQL queries, re-indexed tables, implemented client-server database model and horizontal scaling with database partitioning and sharding to reduce server load and improve performance.",
+            "Reduced load times by 30% leveraging lazy-loading and write-through caching strategy with Redis ElastiCache.",
+            "Implemented e-commerce data synchronization across 4 third-party vendor systems for improved data accuracy and efficiency.",
+            "Engineered continuous deployment pipeline reducing deployment time by 70% with improved release and rollback process."
+          ],        
+          "stack": "Node.js, TypeScript, Python, JavaScript, Express.js, Flask, ASP.Net Core, MySQL, DynamoDB, AWS, Docker, Kubernetes, Redis, jQuery, Vue.js, Knex.js, Mollie API, Filezilla, FTP, SMTP, cXML, Jira, Postman, Selenium, Chai"
         },
         {
           "company": "GrowByData Services Pvt. Ltd.",
           "title": "Associate Software Engineer",
           "years": "August 2018 - February 2019",
           "description": [
-            "Researched and implemented search engine optimization strategies resulting in increased visibility of e-commerce stores",
-            "Incorporated search engine spidering, crawling, indexing and set up tests and campaigns for A/B testing and report generation",
+            "Researched and implemented search engine optimization (SEO) strategies resulting in increased visibility of e-commerce stores.",
+            "Incorporated search engine spidering, crawling, indexing, and set up campaigns for A/B testing and report generation.",
             "Developed client-requested features on sites hosted in e-commerce platforms"
           ],
-          "stack": "JavaScript, Node.js, jQuery, Shopify, BigCommerce, Magento, ABTasty, Screaming Frog, Google Tag Manager"
+          "stack": "JavaScript, PHP, jQuery, Shopify, Magento, WordPress, ABTasty, Screaming Frog, Google Analytics"
         }
       ],
       "skills": [
@@ -165,16 +157,16 @@
           "url": "https://mc.miamioh.edu/eduportal"
         },
         {
+          "title": "Review Rewards",
+          "category": "Blockchain based Anonymous reviewer incentive token to incentivize academic peer reviewers.",
+          "image": "review_rewards.png",
+          "url": "https://drive.google.com/file/d/1a70WsHwL-pD4ZvVAycOBpKTsJO96VmWf/view?usp=sharing"
+        },
+        {
           "title": "Eensweenkia",
           "category":"Online platform to manage surveys related to Myaamia tribal culture and language revitalization efforts.",
           "image": "eensweenkia.png",
-          "url": "https://mctest.miamioh.edu/eensweenkia/"
-        },
-        {
-          "title": "Eduawards",
-          "category":"Online platform to apply for scholorship opportunities",
-          "image": "eduawards.png",
-          "url": "https://mc.miamioh.edu/edu-awards/"
+          "url": "https://mc.miamioh.edu/eensweenkia/"
         }
       ]
     }
