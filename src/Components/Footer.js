@@ -6,7 +6,7 @@ const Footer = (props) => {
     networks = props.data.social.map((network) => {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank">
             <i className={network.className}></i>
           </a>
         </li>

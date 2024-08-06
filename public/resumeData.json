@@ -2,23 +2,22 @@
     "main": {
       "name": "Pratiksha Shrestha",
       "occupation": "Software Developer",
-      "description": "I enjoy working on data focused large scale projects. Sometimes I like to get my hands dirty with machine learning and blockchain. I'm currently looking for Software Engineer roles.",
+      "description": " My passion lies in working on data-focused, large-scale projects, and I also enjoy exploring machine learning and blockchain technologies. I am currently seeking dynamic Software Engineer roles where I can leverage my diverse skill set and continue to grow professionally.",
       "image": "profilePic.jpg",
       "bio": [
-        "I'm currently pursuing MS in Computer Science at Miami University of Ohio and plan to graduate on May 2024. I work as a Full-Stack Developer and Graduate Assistant at Myaamia Center.",
-        "I have four years of experience in software development, especially in developing B2B e-commerce web applications. My expertise lies in Node.js, Python, MySQL, and Amazon Web Services (AWS). I like to keep learning. I'm currently working on my frontend development skills alongside diving into blockchain."
+        "As a seasoned Software Engineer with over 5 years of experience,  I specialize in creating scalable data management and e-commerce solutions. I recently graduated with a degree in MS in Computer Science from Miami University and currently contribute as a Full Stack Developer at the Myaamia Center. My core strengths lie in web development, particularly backend development and data integration using Node.js, Python, MySQL, and Amazon Web Services (AWS). I am continually learning and currently enhancing my frontend development skills while exploring blockchain technology."
       ],
       "contactmessage": "You can contact me at pratiksha.shrestha97@gmail.com.",
       "email": "pratiksha.shrestha97@gmail.com",
       "phone": "+1 (347) 686 1391",
       "address": {
         "street": "714 South Locust Street",
-        "city": "Oxford",
-        "state": "Ohio",
-        "zip": "45056"
+        "city": "Glendale",
+        "state": "New York",
+        "zip": "11385"
       },
       "website": "http://pratikshashrestha.com.np",
-      "resumeDownload": "/documents/Pratiksha_Shrestha_Resume_onepage.pdf",
+      "resumeDownload": "/documents/Pratiksha_Shrestha_Portfolio.pdf",
       "social": [
         {
           "name": "facebook",
@@ -44,9 +43,16 @@
     },
     "research": {
       "bio": [
-        "My primary research interest lies in application of blockchain technology to solve real-world problems. I'm working with Dr. Suman Bhunia at Miami University on blockchain based solution to design double blind peer review system that's fully anonymous and supports incentivization."
+        "My primary research interest is in applying blockchain technology to solve real-world problems. Under the guidance of Dr. Bhunia at Miami University, I designed a blockchain-based anonymous tokenization solution to incentivize academic peer reviewers."
       ],
-      "interests": ["Software Engineering", "Blockchain", "Privacy and Security", "Machine Learning"]
+      "interests": ["Software Engineering", "Blockchain", "Privacy and Security", "Machine Learning"],
+      "publications":[
+        {
+          "title": "P Shrestha, S Bhunia, A Carvalho, C Anderson, G. Lee, “A Case Study on Blockchain-based Anonymous Reviewer Incentive Token (BARIT)”, in IEEE International Conference on Systems, Man, and Cybernetics (IEEE SMC) 2024.",
+          "url": "/documents/smc24.pdf",
+          "className": "fa fa-file-o"
+        }
+      ]
     },
     "resume": {
       "skillmessage": "The tech stacks I'm comfortable with:",
@@ -54,7 +60,7 @@
         {
           "school": "Miami University",
           "degree": "MS in Computer Science",
-          "graduated": "May 2024 (Expected)",
+          "graduated": "August 2024",
           "description": "Courses: Machine Learning, Advanced Databases, Cryptography"
         },
         {

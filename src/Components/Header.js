@@ -11,7 +11,7 @@ const Header = (props) => {
     networks = props.data.social.map((network) => {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank">
             <i className={network.className}></i>
           </a>
         </li>
@@ -73,7 +73,8 @@ const Header = (props) => {
           <h1 className="responsive-headline">{name}.</h1>
           <h2>I write code that works!</h2>
           <h3>
-            I'm a <span>{occupation}</span> with expertise in backend development. {description}
+            I am a versatile <span>{occupation}</span> with a strong foundation in backend development and a solid proficiency in frontend frameworks such as React.js.
+            {description}
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

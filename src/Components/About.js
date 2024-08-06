@@ -48,7 +48,7 @@ const About = (props) => {
               bio.map((bioList) => {
                 return <Bio key={bioList} bio={bioList} />;
               })}
-            <p>I've been actively working on empowering women in the field of technology as a <span className="highlight">Technical Committee Member</span> of Women Leaders in Technology (WLiT), Nepal. I support the cause of WLiT by mentoring young women and facilitating technical sessions to help them attain their career goals. Want to be a part of this cause? Go to <a target="_blank" href="https://wlit.org/">wlit.org</a> for more information.</p>
+            <p>I've been actively working on empowering women in the field of technology as a <span className="highlight">Followship Technical Trainer</span> at Women Leaders in Technology (WLiT), Nepal. I support the cause of WLiT by mentoring young women and facilitating technical sessions to help them attain their career goals. Want to be a part of this cause? Go to <a target="_blank" href="https://wlit.org/">wlit.org</a> for more information.</p>
           </div>
           {/* <p>{bio}</p> */}
           <div className="row">
