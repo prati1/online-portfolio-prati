@@ -8,12 +8,24 @@ const ResearchInterests = (props) => {
   return <li className="six columns">{props.interest}</li>;
 }
 
+const Publications = (props) => {
+  console.log('porp', props.publication.title)
+  return <>
+      <li key={props.publication.title}>
+        {props.publication.title}
+        <a href={props.publication.url}  target="_blank">
+          <i className={props.publication.className}></i>
+        </a>
+      </li>
+  </>
+}
+
 const Research = (props) => {
-  let bio, interests;
+  let bio, interests, publications;
   if (props.data) {
     bio = props.data.bio;
     interests = props.data.interests;
-    console.log("intersts", interests);
+    publications = props.data.publications;
   }
 
   return (
@@ -39,7 +51,7 @@ const Research = (props) => {
         {/* <div className="five columns">
         </div> */}
         {/* <div className="nine columns main-col"> */}
-        <div className="twelve columns main-col">
+        <div className="twelve columns main-col mb-25">
           <h3>Research Interests</h3>
           <div>
             <ul>
@@ -48,6 +60,25 @@ const Research = (props) => {
                 return <ResearchInterests key={interest} interest={interest} />;
               })}
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        {/* <div className="three columns"> */}
+        {/* <div className="five columns">
+        </div> */}
+        {/* <div className="nine columns main-col"> */}
+        <div className="twelve columns main-col">
+          <h3>Publications</h3>
+          <div>
+            <ol>
+            {publications &&
+              publications.map((publication) => {
+                return <Publications key={publication} publication={publication} />;
+              })}
+              <></>
+            </ol>
           </div>
         </div>
       </div>
