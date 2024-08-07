@@ -45,7 +45,7 @@
       ]
     },
     "resume": {
-      "skillmessage": "The tech stacks I'm comfortable with:",
+      "skillmessage": "Here are some of the technologies in which I have extensive experience:",
       "education": [
         {
           "school": "Miami University",
@@ -105,24 +105,39 @@
       "skills": [
         {
           "name": "JavaScript",
-          "level": "80%"
+          "level": "90%"
         },
         {
           "name": "Node.js",
+          "level": "90%"
+        },
+        {
+          "name": "React",
           "level": "70%"
+        },
+        {
+          "name": "TypeScript",
+          "level": "70%"
+        },
+        {
+          "name": "Docker",
+          "level": "65%"
+        },
+        {
+          "name": "AWS Services",
+          "level": "75%"
+        },
+        {
+          "name": "Solidity",
+          "level": "60%"
         },
         {
           "name": "Python",
-          "level": "70%"
+          "level": "80%"
         },
         {
           "name": "MySQL",
-          "level": "70%"
-        },
-        
-        {
-          "name": "AWS Services",
-          "level": "65%"
+          "level": "80%"
         },
         {
           "name": "PHP",
@@ -130,15 +145,7 @@
         },
         {
           "name": "Git",
-          "level": "70%"
-        },
-        {
-          "name": "React",
-          "level": "50%"
-        },
-        {
-          "name": "Solidity",
-          "level": "50%"
+          "level": "85%"
         }
       ]
     },
