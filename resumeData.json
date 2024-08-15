@@ -73,7 +73,7 @@
             "Migrated legacy monolithic applications to microservices model hosted in AWS EC2 using AWS API Gateway.",
             "Integrated OAuth 2.0 authorization to secure API endpoints and enhance user authentication process."
           ],
-          "stack": "Laravel, Node.js, React.js, jQuery, JavaScript, AWS, MariaDB, Docker, Rest API, Puppet, Nginx, DLV2"
+          "stack": "Laravel, ASP.Net Core, Node.js, React.js, jQuery, JavaScript, AWS, MariaDB, Docker, Rest API, Puppet, Nginx, DLV2"
         },
         {
           "company": "Proshore Netherlands (via Proshore Nepal)",
@@ -88,7 +88,7 @@
             "Implemented e-commerce data synchronization across 4 third-party vendor systems for improved data accuracy and efficiency.",
             "Engineered continuous deployment pipeline reducing deployment time by 70% with improved release and rollback process."
           ],        
-          "stack": "Node.js, TypeScript, Python, JavaScript, Express.js, Flask, ASP.Net Core, MySQL, DynamoDB, AWS, Docker, Kubernetes, Redis, jQuery, Vue.js, Knex.js, Mollie API, Filezilla, FTP, SMTP, cXML, Jira, Postman, Selenium, Chai"
+          "stack": "Node.js, TypeScript, C#, Python, JavaScript, Express.js, Flask, ASP.Net Core, MySQL, DynamoDB, AWS, Docker, Kubernetes, Redis, jQuery, Vue.js, Knex.js, Mollie API, Filezilla, FTP, SMTP, cXML, Jira, Postman, Selenium, Chai"
         },
         {
           "company": "GrowByData Services Pvt. Ltd.",
@@ -118,6 +118,10 @@
         {
           "name": "TypeScript",
           "level": "70%"
+        },
+        {
+          "name": "C#",
+          "level": "65%"
         },
         {
           "name": "Docker",
